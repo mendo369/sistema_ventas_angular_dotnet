@@ -4,6 +4,68 @@
     "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.API\\SistemaVenta.API.csproj": {}
   },
   "projects": {
+    "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectName": "SistemaVenta.Utility",
+        "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "packagesPath": "C:\\Users\\The Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.API\\SistemaVenta.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +89,17 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,6 +136,320 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "projectName": "SistemaVenta.BLL",
+        "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+        "packagesPath": "C:\\Users\\The Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "projectName": "SistemaVenta.DTO",
+        "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "packagesPath": "C:\\Users\\The Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectName": "SistemaVenta.IOC",
+        "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "packagesPath": "C:\\Users\\The Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SisemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj"
+              },
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+        "projectName": "SistemaVenta.Model",
+        "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+        "packagesPath": "C:\\Users\\The Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj",
+        "projectName": "SistemaVenta.DAL",
+        "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\SistemaVenta.DAL.csproj",
+        "packagesPath": "C:\\Users\\The Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVentas.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\The Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj": {
+                "projectPath": "C:\\Proyects\\SistemVentas_angular_dotnet\\API\\SistemaVenta.Model\\SistemaVenta.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
