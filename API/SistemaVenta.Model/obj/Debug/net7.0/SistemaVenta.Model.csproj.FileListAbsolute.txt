@@ -1,0 +1,14 @@
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.deps.json
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.runtimeconfig.json
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.csproj.AssemblyReference.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.AssemblyInfoInputs.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.AssemblyInfo.cs
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.csproj.CoreCompileInputs.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\refint\SistemaVenta.Model.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll

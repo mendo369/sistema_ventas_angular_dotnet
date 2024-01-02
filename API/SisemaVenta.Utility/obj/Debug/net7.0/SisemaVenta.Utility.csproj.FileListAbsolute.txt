@@ -1,0 +1,11 @@
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\bin\Debug\net7.0\SisemaVenta.Utility.deps.json
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\bin\Debug\net7.0\SisemaVenta.Utility.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\bin\Debug\net7.0\SisemaVenta.Utility.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\SisemaVenta.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\SisemaVenta.Utility.AssemblyInfoInputs.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\SisemaVenta.Utility.AssemblyInfo.cs
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\SisemaVenta.Utility.csproj.CoreCompileInputs.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\SisemaVenta.Utility.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\refint\SisemaVenta.Utility.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\SisemaVenta.Utility.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SisemaVenta.Utility\obj\Debug\net7.0\ref\SisemaVenta.Utility.dll
