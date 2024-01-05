@@ -9,3 +9,15 @@ C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\obj\Debug\net7.0\Si
 C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\obj\Debug\net7.0\refint\SistemaVenta.IOC.dll
 C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.pdb
 C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\obj\Debug\net7.0\ref\SistemaVenta.IOC.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.BLL.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DAL.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DTO.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Utility.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.csproj.AssemblyReference.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVenta.IOC\obj\Debug\net7.0\SistemaVenta.IOC.csproj.CopyComplete

@@ -9,3 +9,7 @@ C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\obj\Debug\net7.0\S
 C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\obj\Debug\net7.0\refint\SistemaVenta.DAL.dll
 C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVenta.DAL.pdb
 C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\obj\Debug\net7.0\ref\SistemaVenta.DAL.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
+C:\Proyects\SistemVentas_angular_dotnet\API\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.CopyComplete
