@@ -41,25 +41,6 @@ namespace SistemaVenta.BLL.Servicios
             }
         }
 
-        public async Task<ProductoDTO> Crear(UsuarioDTO modelo)
-        {
-            try
-            {
-                var productoCreado = await _productoRepositorio.Crear(_mapper.Map<Producto>(modelo));
-
-                if (productoCreado.IdProducto == 0)
-                {
-                    throw new TaskCanceledException("No se pudo crear el producto");
-                }
-
-                return _mapper.Map<ProductoDTO>(productoCreado);
-            }
-            catch
-            {
-                throw;
-            }
-        }
-
         public async Task<bool> Editar(ProductoDTO modelo)
         {
             try
@@ -112,6 +93,25 @@ namespace SistemaVenta.BLL.Servicios
                 }
 
                 return respuesta;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public async Task<ProductoDTO> Crear(ProductoDTO modelo)
+        {
+            try
+            {
+                var productoCreado = await _productoRepositorio.Crear(_mapper.Map<Producto>(modelo));
+
+                if (productoCreado.IdProducto == 0)
+                {
+                    throw new TaskCanceledException("No se pudo crear el producto");
+                }
+
+                return _mapper.Map<ProductoDTO>(productoCreado);
             }
             catch
             {
